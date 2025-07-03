@@ -37,14 +37,14 @@ img {
 .container .news-list {
     display: flex;
 }
-.container .news-list ul li {
+.container .news-list li {
     display: flex;
     margin-bottom: 1.5rem;
 }
-.container .news-list ul li .news-ad {
+.container .news-list li .news-ad {
     max-width: 96px;
 }
-.container .news-list .news-content {
+.container .news-list li .news-content {
     margin: 0 1.25rem;
 }
 .container .news-list .news-ad {

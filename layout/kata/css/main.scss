@@ -37,20 +37,19 @@ img {
     .news-list {
         display: flex;
 
-        ul {
+        li {
+            display: flex;
+            margin-bottom: 1.5rem;
 
-            li {
-                display: flex;
-                margin-bottom: 1.5rem;
+            .news-ad {
+                max-width: 96px;     
+            }
 
-                .news-ad {
-                    max-width: 96px;     
-                }
+            .news-content {
+                margin: 0 1.25rem;
             }
         }
-        .news-content {
-            margin: 0 1.25rem;
-        }
+
         .news-ad {
             max-width: 216px;
         }
