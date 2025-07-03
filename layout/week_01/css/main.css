@@ -64,6 +64,11 @@ a {
     background: url("../images/hero.png") no-repeat center top rgba(0, 0, 0, 0.4);
     background-size: cover;
 }
+@media (max-width: 1200px) {
+    .header {
+        padding: 5rem 0;
+    }
+}
 .header .h1 {
     color: #FFFFFF;
     font-size: 2.5rem;
@@ -86,6 +91,12 @@ a {
 .section .container {
     border-bottom: 1px solid #DEE2E6;
 }
+@media (max-width: 1200px) {
+    .section .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
 .section .h4 {
     font-size: 1.5rem;
 }
@@ -100,6 +111,9 @@ a {
 .section p {
     color: #212529;
     font-size: 1rem;
+}
+.section .brand-intro h5, .section .brand-intro p {
+    text-align: justify;
 }
 .section .brand-history ul li {
     color: #212529;
