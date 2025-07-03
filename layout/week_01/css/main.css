@@ -105,6 +105,7 @@ a {
     font-size: 1.25rem;
 }
 .section img {
+    display: block;
     max-width: 100%;
     height: auto;
 }
@@ -115,34 +116,42 @@ a {
 .section .brand-intro h5, .section .brand-intro p {
     text-align: justify;
 }
-.section .brand-history ul li {
+.section .brand-history li {
     color: #212529;
 }
-.section .brand-history ul li span {
+.section .brand-history li span {
     margin-left: 0.5rem;
     padding-left: 0.5rem;
     border-left: 1px solid #212529;
 }
-.section .brand-concept ul li {
+.section .brand-concept li {
     border-left: 3px solid #DEE2E6;
     padding-left: 0.5rem;
     color: #212529;
 }
-.section .brand-story ul li a {
+.section .brand-story a {
     display: block;
     padding: 0.5rem 0;
     color: #57A203;
     font-size: 1rem;
     text-decoration: none;
+    transition: 0.3s;
 }
-.section .brand-story ul li a i {
+.section .brand-story a i {
     font-size: 1.25rem;
     vertical-align: middle;
 }
-.section .brand-story ul li a span {
+.section .brand-story a span {
     border-bottom: 1px solid #57A203;
     margin-left: 0.25rem;
     padding-bottom: 0.25rem;
+}
+.section .brand-story a:hover {
+    color: #212529;
+    transition: 0.3s;
+}
+.section .brand-story a:hover span {
+    border-bottom: 1px solid #212529;
 }
 
 .footer {
