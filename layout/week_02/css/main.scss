@@ -524,6 +524,10 @@ img {
             padding-top: calc(.75rem - 1px);
             padding-bottom: calc(.75rem - 1px);
 
+            @media (max-width: 576px) {
+                width: calc(100%/2 - .5rem);
+            }
+
             &:hover {
                 border: 1px solid $neutral-600;
             }
@@ -542,6 +546,7 @@ img {
 
     .product-btns {
         display: flex;
+        flex-wrap: wrap;
         gap: 8px;
 
         .btn {
@@ -553,6 +558,10 @@ img {
             font-family: initial;
             line-height: 0;
             letter-spacing: 0;
+
+            @media (max-width: 576px) {
+                width: 100%;
+            }
 
             span {
                 font-size: initial;

@@ -466,6 +466,11 @@ img {
     padding-top: calc(0.75rem - 1px);
     padding-bottom: calc(0.75rem - 1px);
 }
+@media (max-width: 576px) {
+    .product-info .product-size-btn .btn {
+        width: calc(50% - 0.5rem);
+    }
+}
 .product-info .product-size-btn .btn:hover {
     border: 1px solid #6C757D;
 }
@@ -479,6 +484,7 @@ img {
 }
 .product-info .product-btns {
     display: flex;
+    flex-wrap: wrap;
     gap: 8px;
 }
 .product-info .product-btns .btn {
@@ -490,6 +496,11 @@ img {
     font-family: initial;
     line-height: 0;
     letter-spacing: 0;
+}
+@media (max-width: 576px) {
+    .product-info .product-btns .btn {
+        width: 100%;
+    }
 }
 .product-info .product-btns .btn span {
     font-size: initial;
