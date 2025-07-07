@@ -546,8 +546,11 @@ img {
 
     .product-btns {
         display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
+        gap: .5rem;
+
+        @media (max-width: 576px) {
+            flex-wrap: wrap;
+        }
 
         .btn {
             border: 1px solid $neutral-900;
@@ -599,6 +602,14 @@ img {
     .h4 {
         padding: 9.5px 0;
         font-size: 1.5rem;
+    }
+
+    @media (max-width: 768px){
+        padding: 1.5rem 0;
+
+        .product-item {
+            padding-bottom: 3rem;
+        }
     }
 }
 
