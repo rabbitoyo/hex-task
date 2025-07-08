@@ -289,12 +289,6 @@ img {
         &:hover {
             color: $primary-400;
         }
-
-        @media (max-width: 576px) {
-            position: absolute;
-            right: .75rem;
-            top: .75rem;
-        }
     }
 
     @media (max-width: 576px) {
@@ -326,6 +320,12 @@ img {
                     background: $primary-100;
                 }
             }
+        }
+
+        .member {
+            position: absolute;
+            right: .75rem;
+            top: .75rem;
         }
     }
 }
@@ -618,13 +618,6 @@ img {
 
     .h4 {
         font-size: 1.5rem;
-
-        @media (max-width: 576px) {
-            margin-bottom: 1.5rem;
-            margin-right: 0;
-            width: 100%;
-            text-align: center;
-        }
     }
 
     .btn {
@@ -638,6 +631,13 @@ img {
 
     @media (max-width: 576px) {
         padding: 1.5rem .75rem;
+
+        .h4 {
+            margin-bottom: 1.5rem;
+            margin-right: 0;
+            width: 100%;
+            text-align: center;
+        }
 
         .d-flex {
             flex-wrap: wrap;

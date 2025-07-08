@@ -270,13 +270,6 @@ img {
     color: #57A203;
 }
 @media (max-width: 576px) {
-    .header .member {
-        position: absolute;
-        right: 0.75rem;
-        top: 0.75rem;
-    }
-}
-@media (max-width: 576px) {
     .header {
         padding: 0;
     }
@@ -301,6 +294,11 @@ img {
     }
     .header .navbar-nav .nav-item:last-child {
         background: #F5FEE7;
+    }
+    .header .member {
+        position: absolute;
+        right: 0.75rem;
+        top: 0.75rem;
     }
 }
 
@@ -549,14 +547,6 @@ img {
 .register-member .h4 {
     font-size: 1.5rem;
 }
-@media (max-width: 576px) {
-    .register-member .h4 {
-        margin-bottom: 1.5rem;
-        margin-right: 0;
-        width: 100%;
-        text-align: center;
-    }
-}
 .register-member .btn {
     color: #FFFFFF;
     background: #212529;
@@ -567,6 +557,12 @@ img {
 @media (max-width: 576px) {
     .register-member {
         padding: 1.5rem 0.75rem;
+    }
+    .register-member .h4 {
+        margin-bottom: 1.5rem;
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
     }
     .register-member .d-flex {
         flex-wrap: wrap;
