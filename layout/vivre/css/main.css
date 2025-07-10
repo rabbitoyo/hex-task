@@ -244,13 +244,16 @@ img {
     color: #ADB5BD;
     transform: translateY(2px);
 }
+@media (max-width: 576px) {
+    .form-control::-moz-placeholder {
+        transform: translateY(0);
+    }
+    .form-control::placeholder {
+        transform: translateY(0);
+    }
+}
 .form-control:focus, .form-control:focus-visible {
     border: 1px solid #ADB5BD;
-}
-@media (max-width: 576px) {
-    .form-control {
-        transform: translateY(-2px);
-    }
 }
 
 /* clears the ‘X’ from Chrome */

@@ -275,14 +275,14 @@ img {
     &::placeholder {
         color: $neutral-300;
         transform: translateY(2px);
+
+        @media (max-width: 576px) {
+            transform: translateY(0);
+        }
     }
 
     &:focus, &:focus-visible {
         border: 1px solid $neutral-300;
-    }
-
-    @media (max-width: 576px) {
-        transform: translateY(-2px);
     }
 }
 
