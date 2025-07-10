@@ -2,7 +2,7 @@ const btnMenu = document.querySelector('.btn-menu');
 const btnClose = document.querySelector('.btn-close');
 const dropMenu = document.querySelector('.drop-menu');
 const menuLinks = document.querySelectorAll('.drop-menu li a');
-const body = document.body;
+const body = document.body; 
 
 if (dropMenu && btnMenu) {
   
