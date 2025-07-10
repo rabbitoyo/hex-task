@@ -7,12 +7,14 @@ if (dropMenu && btnMenu) {
   // 開啟選單
   const openMenu = () => {
     dropMenu.classList.add('active');
+    body.classList.add('no-scroll');
   };
 
   // 關閉選單
   const closeMenu = () => {
     if (dropMenu.classList.contains('active')) {
       dropMenu.classList.remove('active');
+      body.classList.remove('no-scroll');
     }
   };
 
@@ -29,7 +31,7 @@ if (dropMenu && btnMenu) {
     link.addEventListener('click', closeMenu);
   });
 
-  // 當視窗寬度大於 1100，自動關閉選單
+  // 當視窗寬度大於 768，自動關閉選單
   window.addEventListener('resize', () => {
     if (window.innerWidth > 768) {
       closeMenu();
