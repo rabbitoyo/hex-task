@@ -247,6 +247,11 @@ img {
 .form-control:focus, .form-control:focus-visible {
     border: 1px solid #ADB5BD;
 }
+@media (max-width: 576px) {
+    .form-control {
+        transform: translateY(0);
+    }
+}
 
 /* clears the ‘X’ from Chrome */
 input[type=search]::-webkit-search-decoration,
