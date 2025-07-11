@@ -30,6 +30,12 @@ $danger-300: #D74F4F;
     //outline: auto;
 }
 
+body {
+    font-family: "Noto Sans TC", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+
 .container {
     margin: 0 auto;
     padding: 0 .75rem;
@@ -222,8 +228,6 @@ $danger-300: #D74F4F;
 
 .h2, .h3, .h4, .h5, .h6, p, span, li, a, .btn {
     color: $neutral-900;
-    font-family: "Noto Sans TC", sans-serif;
-    letter-spacing: 0.05em;
 }
 
 .h2, .h3, .h4, .h5, .h6 {
@@ -233,7 +237,6 @@ $danger-300: #D74F4F;
 
 p, span, li, a, .btn {
     font-weight: 500;
-    line-height: 1.5;
     text-decoration: none;
 }
 
@@ -398,6 +401,7 @@ img {
                 color: $neutral-900;
                 cursor: default;
                 opacity: .4;
+                pointer-events: none;
             }
 
             &:hover {
