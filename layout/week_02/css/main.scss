@@ -277,8 +277,8 @@ img {
 .header {
     position: sticky;
     top: 0;
-    background: rgba(255, 255, 255, .95);
-    backdrop-filter: blur(3px);
+    background: rgba(255, 255, 255, .85);
+    backdrop-filter: blur(5px);
     z-index: 5;
 
     .member {
@@ -310,6 +310,10 @@ img {
             margin: .75rem;
         }
 
+        nav {
+            width: 100%;
+        }
+
         .navbar-nav {
             width: 100%;
 
@@ -339,6 +343,11 @@ img {
     .h3 {
         padding: 7px 0;
         font-size: 1.75rem;
+    }
+
+    .nav {
+        position: sticky;
+        top: 5rem;
     }
 
     .nav .nav-item {
